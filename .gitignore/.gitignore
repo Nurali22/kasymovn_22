@@ -1,0 +1,15 @@
+def stepen(cifra1, cifra2, cifra3, ):
+  if cifra2 == '0':
+    cifra = cifra1 + cifra3 
+  elif cifra2 == '1':
+    cifra = cifra1 - cifra3
+  elif cifra2 == '2':
+    cifra = cifra1 / cifra3
+  elif cifra2 == '3':
+    cifra = cifra1 * cifra3
+  return cifra
+a1 = int(input("cifra1"))
+a2 = str((input("+=0 -=1 /=2 *=3 ")))
+a3 = int(input("cifra3"))
+print (stepen(a1, a2, a3))
+  
